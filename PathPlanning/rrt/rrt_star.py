@@ -110,7 +110,7 @@ class RRT():
 
     def steer(self, rnd, nind):
         """
-        生成新的树节点，扩展树
+        生成新的树节点，扩展树，向前走一步
         :param rnd:
         :param nind:
         :return:
